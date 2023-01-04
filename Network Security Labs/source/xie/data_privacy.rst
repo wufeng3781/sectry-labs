@@ -13,7 +13,7 @@ Data Privacy
 Introduction
 ------------
 
-**Overview:** Nowadays, websites, applications, and social media platforms often collect and store personal data from their users. If applications and platforms do not place adequate safeguards on the data they collect, data breaches can happen and compromises user privacy. In this lab, students will learn data anonymization and the *k-anonymity* privacy model. The weakness of *k-anonymity* will also be introduced. This lab also lets students practice using ARX, a data anonymization tool, to apply *k-anonymity*.
+**Overview:** Websites, applications, and social media platforms often collect and store personal data from their users. If applications and platforms do not place adequate safeguards on the data they collect, data breaches can happen and compromises user privacy. In this lab, students will learn data anonymization and the *k-anonymity* privacy model. The weakness of *k-anonymity* will also be introduced. This lab also lets students practice using ARX, a data anonymization tool, to apply *k-anonymity*.
 
 **Objectives:** Upon completion of this lab, students will be able to
 
