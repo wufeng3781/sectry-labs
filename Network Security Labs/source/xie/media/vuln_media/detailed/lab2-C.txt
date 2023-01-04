@@ -1,0 +1,84 @@
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-19 03:22 UTC
+Nmap scan report for 192.168.1.20
+Host is up (0.0021s latency).
+Not shown: 977 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+| ftp-vsftpd-backdoor:
+|   VULNERABLE:
+|   vsFTPd version 2.3.4 backdoor
+|     State: VULNERABLE (Exploitable)
+|     IDs:  CVE:CVE-2011-2523  OSVDB:73573
+|       vsFTPd version 2.3.4 backdoor, this was reported on 2011-07-04.
+|     Disclosure date: 2011-07-03
+|     Exploit results:
+|       Shell command: id
+|       Results: uid=0(root) gid=0(root)
+|     References:
+|       http://scarybeastsecurity.blogspot.com/2011/07/alert-vsftpd-download-backdoored.html
+|       https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/ftp/vsftpd_234_backdoor.rb
+|       http://osvdb.org/73573
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2523
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+| smtp-vuln-cve2010-4344:
+|_  The SMTP server is not Exim: NOT VULNERABLE
+53/tcp   open  domain
+80/tcp   open  http
+| http-csrf:
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=192.168.1.20
+|   Found the following possible CSRF vulnerabilities:
+|
+|     Path: http://192.168.1.20/dvwa/
+|     Form id:
+|     Form action: login.php
+|
+|     Path: http://192.168.1.20/dvwa/login.php
+|     Form id:
+|     Form action: login.php
+|
+|     Path: http://192.168.1.20/twiki/TWikiDocumentation.html
+|     Form id:
+|     Form action: http://TWiki.org/cgi-bin/passwd/TWiki/WebHome
+|
+|     Path: http://192.168.1.20/twiki/TWikiDocumentation.html
+|     Form id:
+|     Form action: http://TWiki.org/cgi-bin/passwd/Main/WebHome
+|
+|     Path: http://192.168.1.20/twiki/TWikiDocumentation.html
+|     Form id:
+|     Form action: http://TWiki.org/cgi-bin/edit/TWiki/
+|
+|     Path: http://192.168.1.20/twiki/TWikiDocumentation.html
+|     Form id:
+|     Form action: http://TWiki.org/cgi-bin/view/TWiki/TWikiSkins
+|
+|     Path: http://192.168.1.20/twiki/TWikiDocumentation.html
+|     Form id:
+|_    Form action: http://TWiki.org/cgi-bin/manage/TWiki/ManagingWebs
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-fileupload-exploiter:
+|
+|_    Couldn't find a file-type field.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+|_irc-unrealircd-backdoor: Looks like trojaned version of unrealircd. See http://seclists.org/fulldisclosure/2010/Jun/277
+8009/tcp open  ajp13
+8180/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 9.86 seconds

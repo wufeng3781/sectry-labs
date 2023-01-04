@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Fri May 31 09:37:37 2019 as: nmap -T4 -sS -sV -O -p- -iL fping.txt -oA nmap_pt_2_all -->
+<nmaprun scanner="nmap" args="nmap -T4 -sS -sV -O -p- -iL fping.txt -oA nmap_pt_2_all" start="1559309857" startstr="Fri May 31 09:37:37 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="SYN Stealth Scan" time="1559309901" percent="11.92" remaining="326" etc="1559310226"/>
+<taskprogress task="SYN Stealth Scan" time="1559309901" percent="12.03" remaining="322" etc="1559310223"/>
+<taskprogress task="SYN Stealth Scan" time="1559309989" percent="34.36" remaining="253" etc="1559310241"/>
+<taskprogress task="SYN Stealth Scan" time="1559310062" percent="48.58" remaining="217" etc="1559310279"/>
+<taskprogress task="SYN Stealth Scan" time="1559310111" percent="58.03" remaining="184" etc="1559310295"/>
+<taskprogress task="SYN Stealth Scan" time="1559310143" percent="64.13" remaining="160" etc="1559310303"/>
+<taskprogress task="SYN Stealth Scan" time="1559310220" percent="72.56" remaining="138" etc="1559310357"/>
+<taskprogress task="SYN Stealth Scan" time="1559310245" percent="73.74" remaining="139" etc="1559310383"/>
+<taskprogress task="SYN Stealth Scan" time="1559310345" percent="84.92" remaining="87" etc="1559310432"/>
+<taskprogress task="SYN Stealth Scan" time="1559310404" percent="90.40" remaining="59" etc="1559310462"/>
+<taskprogress task="SYN Stealth Scan" time="1559310471" percent="91.94" remaining="54" etc="1559310525"/>
+<taskprogress task="SYN Stealth Scan" time="1559310473" percent="91.96" remaining="54" etc="1559310527"/>
+<taskprogress task="SYN Stealth Scan" time="1559310549" percent="92.62" remaining="56" etc="1559310604"/>
+<taskprogress task="SYN Stealth Scan" time="1559310624" percent="93.27" remaining="56" etc="1559310679"/>
+<taskprogress task="SYN Stealth Scan" time="1559310693" percent="93.86" remaining="55" etc="1559310748"/>
+<taskprogress task="SYN Stealth Scan" time="1559310743" percent="94.29" remaining="54" etc="1559310797"/>
+<taskprogress task="SYN Stealth Scan" time="1559310744" percent="94.30" remaining="54" etc="1559310798"/>
+<taskprogress task="SYN Stealth Scan" time="1559310744" percent="94.30" remaining="54" etc="1559310798"/>
+<taskprogress task="SYN Stealth Scan" time="1559310823" percent="94.96" remaining="52" etc="1559310874"/>
+<taskprogress task="SYN Stealth Scan" time="1559310824" percent="94.97" remaining="52" etc="1559310875"/>
+<taskprogress task="SYN Stealth Scan" time="1559310825" percent="94.97" remaining="52" etc="1559310876"/>
+<taskprogress task="SYN Stealth Scan" time="1559310935" percent="95.93" remaining="46" etc="1559310981"/>
+<taskprogress task="SYN Stealth Scan" time="1559310990" percent="96.41" remaining="43" etc="1559311032"/>
+<taskprogress task="SYN Stealth Scan" time="1559311066" percent="97.06" remaining="37" etc="1559311103"/>
+<taskprogress task="SYN Stealth Scan" time="1559311126" percent="97.57" remaining="32" etc="1559311158"/>
+<taskprogress task="SYN Stealth Scan" time="1559311127" percent="97.58" remaining="32" etc="1559311159"/>
+<taskprogress task="SYN Stealth Scan" time="1559311201" percent="98.19" remaining="25" etc="1559311226"/>
+<taskprogress task="SYN Stealth Scan" time="1559311256" percent="98.66" remaining="19" etc="1559311275"/>
+<taskprogress task="SYN Stealth Scan" time="1559311357" percent="99.54" remaining="7" etc="1559311364"/>
+<taskprogress task="SYN Stealth Scan" time="1559311358" percent="99.55" remaining="7" etc="1559311365"/>
+<taskprogress task="SYN Stealth Scan" time="1559311402" percent="99.93" remaining="2" etc="1559311403"/>
+<taskprogress task="SYN Stealth Scan" time="1559311476" percent="100.00" remaining="1" etc="1559311476"/>
+<taskprogress task="SYN Stealth Scan" time="1559311513" percent="100.00" remaining="1" etc="1559311513"/>
+<taskprogress task="SYN Stealth Scan" time="1559311558" percent="100.00" remaining="1" etc="1559311558"/>
+<taskprogress task="SYN Stealth Scan" time="1559311559" percent="100.00" remaining="1" etc="1559311559"/>
+<taskprogress task="SYN Stealth Scan" time="1559311609" percent="100.00" remaining="1" etc="1559311609"/>
+<taskprogress task="SYN Stealth Scan" time="1559311620" percent="100.00" remaining="1" etc="1559311620"/>
+<taskprogress task="Service scan" time="1559311694" percent="31.62" remaining="48" etc="1559311742"/>
+<taskprogress task="Service scan" time="1559311695" percent="31.62" remaining="50" etc="1559311745"/>
+<taskprogress task="Service scan" time="1559311709" percent="37.61" remaining="62" etc="1559311770"/>
+<taskprogress task="Service scan" time="1559311710" percent="37.61" remaining="64" etc="1559311773"/>
+<taskprogress task="Service scan" time="1559311743" percent="65.81" remaining="37" etc="1559311780"/>
+<taskprogress task="Service scan" time="1559311747" percent="75.21" remaining="25" etc="1559311772"/>
+<taskprogress task="Service scan" time="1559311790" percent="92.31" remaining="10" etc="1559311800"/>
+<taskprogress task="Service scan" time="1559311791" percent="92.31" remaining="10" etc="1559311801"/>
+<taskprogress task="Service scan" time="1559311832" percent="99.15" remaining="2" etc="1559311833"/>
+<taskprogress task="Service scan" time="1559311871" percent="99.15" remaining="2" etc="1559311873"/>
+<taskprogress task="Service scan" time="1559311907" percent="100.00" remaining="0" etc="1559311907"/>
+<host starttime="1559309857" endtime="1559311925"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="192.168.1.23" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65516">
+<extrareasons reason="resets" count="65516"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" product="Microsoft Windows Server 2008 R2 - 2012 microsoft-ds" ostype="Windows Server 2008 R2 - 2012" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="1433"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-sql-s" product="Microsoft SQL Server 2012" version="11.00.3000; SP1" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:sql_server:2012:sp1</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="2382"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-olap3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-wbt-server" tunnel="ssl" method="table" conf="3"/></port>
+<port protocol="tcp" portid="38426"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49156"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49157"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49158"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49159"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49160"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="56918"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-sql-s" product="Microsoft SQL Server 2012" version="11.00.3000; SP1" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:sql_server:2012:sp1</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012" accuracy="98" line="84915">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="98"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="98"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="98"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP3" accuracy="97" line="84602">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="97"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+</osmatch>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="96" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="96" line="64419">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="95" line="67166">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Actiontec MI424WR-GEN3I WAP" accuracy="94" line="1343">
+<osclass type="WAP" vendor="Actiontec" osfamily="embedded" accuracy="94"><cpe>cpe:/h:actiontec:mi424wr-gen3i</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" accuracy="94"><cpe>cpe:/o:linux:linux_kernel</cpe></osclass>
+</osmatch>
+<osmatch name="VMware Player virtual NAT device" accuracy="93" line="103933">
+<osclass type="specialized" vendor="VMware" osfamily="Player" accuracy="93"><cpe>cpe:/a:vmware:player</cpe></osclass>
+</osmatch>
+<osmatch name="DVTel DVT-9540DW network camera" accuracy="88" line="23567">
+<osclass type="webcam" vendor="DVTel" osfamily="embedded" accuracy="88"/>
+</osmatch>
+</os>
+<tcpsequence index="263" difficulty="Good luck!" values="229474EF,9A373483,4357B7BB,2C980D1E,4A8BF137,3E1DE7F3"/>
+<ipidsequence class="Incremental" values="108C,108F,1094,1099,109F,10A3"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="3278" rttvar="2303" to="100000"/>
+</host>
+<host starttime="1559309857" endtime="1559311924"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="192.168.1.21" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65528">
+<extrareasons reason="resets" count="65528"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ssh" product="OpenSSH" version="5.9p1 Debian 5ubuntu1.4" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Apache httpd" version="2.2.22" hostname="127.0.1.1" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.22</cpe></service></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="mysql" product="MySQL" version="5.5.54-0ubuntu0.12.04.1" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.5.54-0ubuntu0.12.04.1</cpe></service></port>
+<port protocol="tcp" portid="8000"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="SimpleHTTPServer" version="0.6" extrainfo="Python 2.7.3" method="probed" conf="10"><cpe>cpe:/a:python:simplehttpserver:0.6</cpe></service></port>
+<port protocol="tcp" portid="32892"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="42868"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="63212"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="100" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="100" line="64419">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+</os>
+<tcpsequence index="261" difficulty="Good luck!" values="4EDD1975,DB419D92,F359D23A,DF15272C,48E5EB3,1A7B4AAF"/>
+<ipidsequence class="Busy server or unknown class" values="1024,102D,1033,1038,1042,1046"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="4024" rttvar="2596" to="100000"/>
+</host>
+<host starttime="1559309857" endtime="1559311924"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="192.168.1.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65510">
+<extrareasons reason="resets" count="65510"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="domain" product="Microsoft DNS" version="6.0.6002 (17724655)" extrainfo="Windows Server 2008 SP2" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:dns</cpe><cpe>cpe:/o:microsoft:windows_server_2008::sp2</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="88"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="kerberos-sec" product="Microsoft Windows Kerberos" extrainfo="server time: 2019-05-31 21:07:57Z" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:kerberos</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ldap" product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: general.local, Site: Default-First-Site-Name" hostname="MADSDC01" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" product="Microsoft Windows 2003 or 2008 microsoft-ds" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows_server_2003</cpe></service></port>
+<port protocol="tcp" portid="464"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="593"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ncacn_http" product="Microsoft Windows RPC over HTTP" version="1.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="636"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="3268"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ldap" product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: general.local, Site: Default-First-Site-Name" hostname="MADSDC01" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3269"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="5722"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="41902"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49157"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ncacn_http" product="Microsoft Windows RPC over HTTP" version="1.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49158"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49161"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49167"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49196"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="53"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012" accuracy="98" line="84915">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="98"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="98"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="98"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP3" accuracy="98" line="84602">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="98"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+</osmatch>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="96" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="96" line="64419">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Actiontec MI424WR-GEN3I WAP" accuracy="95" line="1343">
+<osclass type="WAP" vendor="Actiontec" osfamily="embedded" accuracy="95"><cpe>cpe:/h:actiontec:mi424wr-gen3i</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" accuracy="95"><cpe>cpe:/o:linux:linux_kernel</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="94" line="67166">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="VMware Player virtual NAT device" accuracy="93" line="103933">
+<osclass type="specialized" vendor="VMware" osfamily="Player" accuracy="93"><cpe>cpe:/a:vmware:player</cpe></osclass>
+</osmatch>
+<osmatch name="DVTel DVT-9540DW network camera" accuracy="88" line="23567">
+<osclass type="webcam" vendor="DVTel" osfamily="embedded" accuracy="88"/>
+</osmatch>
+</os>
+<tcpsequence index="253" difficulty="Good luck!" values="985CA1C5,2E89662D,B073B308,52611FAC,CBB31403,7DF175FE"/>
+<ipidsequence class="Incremental" values="108A,1090,1095,109A,109E,10A4"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="3243" rttvar="2396" to="100000"/>
+</host>
+<host starttime="1559309857" endtime="1559311925"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="192.168.1.22" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65510">
+<extrareasons reason="resets" count="65510"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="domain" product="Microsoft DNS" version="6.1.7601 (1DB1446A)" extrainfo="Windows Server 2008 R2 SP1" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:dns</cpe><cpe>cpe:/o:microsoft:windows_server_2008:r2:sp1</cpe></service></port>
+<port protocol="tcp" portid="88"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="kerberos-sec" product="Microsoft Windows Kerberos" extrainfo="server time: 2019-05-31 21:08:03Z" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:kerberos</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ldap" product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: general.local, Site: Default-First-Site-Name" hostname="MADSDC02" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" product="Microsoft Windows Server 2008 R2 - 2012 microsoft-ds" extrainfo="workgroup: GENERAL" hostname="MADSDC02" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="464"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="kpasswd5" method="table" conf="3"/></port>
+<port protocol="tcp" portid="593"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ncacn_http" product="Microsoft Windows RPC over HTTP" version="1.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="636"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-wbt-server" product="Microsoft Terminal Service" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5311"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="5722"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="9389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="mc-nmf" product=".NET Message Framing" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49157"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ncacn_http" product="Microsoft Windows RPC over HTTP" version="1.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49158"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49171"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49174"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49200"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49553"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="53"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012" accuracy="98" line="84915">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="98"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="98"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="98"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP3" accuracy="98" line="84602">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="98"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+</osmatch>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="96" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="96" line="64419">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="95" line="67166">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Actiontec MI424WR-GEN3I WAP" accuracy="94" line="1343">
+<osclass type="WAP" vendor="Actiontec" osfamily="embedded" accuracy="94"><cpe>cpe:/h:actiontec:mi424wr-gen3i</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" accuracy="94"><cpe>cpe:/o:linux:linux_kernel</cpe></osclass>
+</osmatch>
+<osmatch name="VMware Player virtual NAT device" accuracy="93" line="103933">
+<osclass type="specialized" vendor="VMware" osfamily="Player" accuracy="93"><cpe>cpe:/a:vmware:player</cpe></osclass>
+</osmatch>
+<osmatch name="DVTel DVT-9540DW network camera" accuracy="88" line="23567">
+<osclass type="webcam" vendor="DVTel" osfamily="embedded" accuracy="88"/>
+</osmatch>
+</os>
+<tcpsequence index="263" difficulty="Good luck!" values="EE069CAA,4ED7D4D5,4DD10DED,4950E3E7,390D2F3D,E02D0E07"/>
+<ipidsequence class="Incremental" values="108D,1091,1096,109B,10A1,10A5"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="3798" rttvar="2118" to="100000"/>
+</host>
+<host starttime="1559309857" endtime="1559311928"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="192.168.1.24" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65517">
+<extrareasons reason="resets" count="65517"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft IIS httpd" version="8.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:8.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" product="Microsoft Windows Server 2008 R2 - 2012 microsoft-ds" ostype="Windows Server 2008 R2 - 2012" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="2049"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="mountd" version="1-3" extrainfo="RPC #100005" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="2121"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" product="FileZilla ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:filezilla-project:filezilla_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-wbt-server" tunnel="ssl" method="table" conf="3"/></port>
+<port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49166"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49167"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49168"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49169"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012" accuracy="98" line="84915">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="98"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="98"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="98"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP3" accuracy="97" line="84602">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="97"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+</osmatch>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="96" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="96" line="64419">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Actiontec MI424WR-GEN3I WAP" accuracy="95" line="1343">
+<osclass type="WAP" vendor="Actiontec" osfamily="embedded" accuracy="95"><cpe>cpe:/h:actiontec:mi424wr-gen3i</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" accuracy="95"><cpe>cpe:/o:linux:linux_kernel</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="94" line="67166">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="VMware Player virtual NAT device" accuracy="93" line="103933">
+<osclass type="specialized" vendor="VMware" osfamily="Player" accuracy="93"><cpe>cpe:/a:vmware:player</cpe></osclass>
+</osmatch>
+<osmatch name="DVTel DVT-9540DW network camera" accuracy="88" line="23567">
+<osclass type="webcam" vendor="DVTel" osfamily="embedded" accuracy="88"/>
+</osmatch>
+</os>
+<tcpsequence index="262" difficulty="Good luck!" values="8F48C00D,1A5E070A,75E4D664,59666925,9E64E58A,9539F4C5"/>
+<ipidsequence class="Incremental" values="108B,1092,1098,109C,10A2,10A6"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="3796" rttvar="2156" to="100000"/>
+</host>
+<host starttime="1559309857" endtime="1559311925"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="192.168.1.26" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65517">
+<extrareasons reason="resets" count="65517"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" product="Microsoft Windows Server 2008 R2 - 2012 microsoft-ds" ostype="Windows Server 2008 R2 - 2012" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="8000"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Splunkd httpd" method="probed" conf="10"><cpe>cpe:/a:splunk:splunk</cpe></service></port>
+<port protocol="tcp" portid="8088"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Splunkd httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:splunk:splunk</cpe></service></port>
+<port protocol="tcp" portid="8089"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Splunkd httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:splunk:splunk</cpe></service></port>
+<port protocol="tcp" portid="8191"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="limnerpressure" method="table" conf="3"/></port>
+<port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49664"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49665"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49666"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49667"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49668"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49669"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49670"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49671"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012" accuracy="98" line="84915">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="98"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="98"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="98"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP3" accuracy="98" line="84602">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="98"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+</osmatch>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="96" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="96" line="64419">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Actiontec MI424WR-GEN3I WAP" accuracy="95" line="1343">
+<osclass type="WAP" vendor="Actiontec" osfamily="embedded" accuracy="95"><cpe>cpe:/h:actiontec:mi424wr-gen3i</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" accuracy="95"><cpe>cpe:/o:linux:linux_kernel</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="95" line="67166">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="VMware Player virtual NAT device" accuracy="94" line="103933">
+<osclass type="specialized" vendor="VMware" osfamily="Player" accuracy="94"><cpe>cpe:/a:vmware:player</cpe></osclass>
+</osmatch>
+<osmatch name="DVTel DVT-9540DW network camera" accuracy="88" line="23567">
+<osclass type="webcam" vendor="DVTel" osfamily="embedded" accuracy="88"/>
+</osmatch>
+</os>
+<tcpsequence index="262" difficulty="Good luck!" values="76B4985D,D3127770,DB270794,98671581,9AA267A2,43B2029C"/>
+<ipidsequence class="Incremental" values="108E,1093,1097,109D,10A0,10A7"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="3717" rttvar="2118" to="100000"/>
+</host>
+<host starttime="1559309857" endtime="1559311926"><status state="up" reason="reset" reason_ttl="128"/>
+<address addr="192.168.1.99" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65435">
+<extrareasons reason="resets" count="65435"/>
+</extraports>
+<extraports state="filtered" count="91">
+<extrareasons reason="no-responses" count="91"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ssh" product="OpenSSH" version="7.6" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6</cpe></service></port>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Apache httpd" version="2.4.29" extrainfo="(Unix) PHP/7.2.2" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.29</cpe></service></port>
+<port protocol="tcp" portid="110"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="pop3" product="Dovecot pop3d" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+<port protocol="tcp" portid="222"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ssh" product="OpenSSH" version="7.6" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6</cpe></service></port>
+<port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="imap" product="Dovecot imapd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+<port protocol="tcp" portid="995"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="pop3" product="Dovecot pop3d" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+<port protocol="tcp" portid="2222"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ssh" product="OpenSSH" version="7.6" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="97" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="97" line="64419">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Actiontec MI424WR-GEN3I WAP" accuracy="96" line="1343">
+<osclass type="WAP" vendor="Actiontec" osfamily="embedded" accuracy="96"><cpe>cpe:/h:actiontec:mi424wr-gen3i</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" accuracy="96"><cpe>cpe:/o:linux:linux_kernel</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="95" line="67166">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012" accuracy="91" line="84915">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="91"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="91"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="91"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP3" accuracy="91" line="84602">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="91"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+</osmatch>
+<osmatch name="BlueArc Titan 2100 NAS device" accuracy="88" line="10407">
+<osclass type="storage-misc" vendor="BlueArc" osfamily="embedded" accuracy="88"><cpe>cpe:/h:bluearc:titan_2100</cpe></osclass>
+</osmatch>
+<osmatch name="VMware Player virtual NAT device" accuracy="87" line="103933">
+<osclass type="specialized" vendor="VMware" osfamily="Player" accuracy="87"><cpe>cpe:/a:vmware:player</cpe></osclass>
+</osmatch>
+</os>
+<tcpsequence index="261" difficulty="Good luck!" values="13681345,A59C5912,A9ECB8A2,CFA10032,23355822,F6B89F99"/>
+<ipidsequence class="Incremental" values="10A8,10A9,10AA,10AB,10AC,10AD"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="70730" rttvar="110641" to="513294"/>
+</host>
+<host starttime="1559309857" endtime="1559311926"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="192.168.1.27" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="resets" count="65532"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" product="vsftpd" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:vsftpd:vsftpd</cpe></service></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ssh" product="OpenSSH" version="5.3" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.3</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="100" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+</os>
+<tcpsequence index="261" difficulty="Good luck!" values="AC6734D2,66D900EA,55214569,F8E62AEA,7CC79EC7,4C044165"/>
+<ipidsequence class="Busy server or unknown class" values="1023,102C,1032,103D,1041,104A"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="4218" rttvar="2609" to="100000"/>
+</host>
+<taskprogress task="SYN Stealth Scan" time="1559311932" percent="16.57" remaining="21" etc="1559311952"/>
+<taskprogress task="SYN Stealth Scan" time="1559311976" percent="69.02" remaining="22" etc="1559311998"/>
+<taskprogress task="SYN Stealth Scan" time="1559312015" percent="71.74" remaining="35" etc="1559312049"/>
+<taskprogress task="SYN Stealth Scan" time="1559312019" percent="72.04" remaining="36" etc="1559312054"/>
+<taskprogress task="SYN Stealth Scan" time="1559312059" percent="74.82" remaining="45" etc="1559312103"/>
+<taskprogress task="SYN Stealth Scan" time="1559312108" percent="78.24" remaining="51" etc="1559312158"/>
+<taskprogress task="SYN Stealth Scan" time="1559312112" percent="78.48" remaining="51" etc="1559312162"/>
+<taskprogress task="SYN Stealth Scan" time="1559312184" percent="83.47" remaining="51" etc="1559312235"/>
+<taskprogress task="SYN Stealth Scan" time="1559312282" percent="90.24" remaining="39" etc="1559312320"/>
+<taskprogress task="SYN Stealth Scan" time="1559312321" percent="92.91" remaining="30" etc="1559312351"/>
+<taskprogress task="SYN Stealth Scan" time="1559312323" percent="93.07" remaining="30" etc="1559312352"/>
+<taskprogress task="SYN Stealth Scan" time="1559312393" percent="98.00" remaining="10" etc="1559312403"/>
+<taskprogress task="SYN Stealth Scan" time="1559312394" percent="98.04" remaining="10" etc="1559312403"/>
+<taskprogress task="Service scan" time="1559312490" percent="83.33" remaining="14" etc="1559312503"/>
+<taskprogress task="Service scan" time="1559312505" percent="83.33" remaining="17" etc="1559312521"/>
+<taskprogress task="Service scan" time="1559312548" percent="83.33" remaining="26" etc="1559312573"/>
+<taskprogress task="Service scan" time="1559312553" percent="83.33" remaining="26" etc="1559312579"/>
+<taskprogress task="NSE" time="1559312592" percent="99.60" remaining="1" etc="1559312592"/>
+<taskprogress task="NSE" time="1559312594" percent="99.60" remaining="1" etc="1559312594"/>
+<host starttime="1559309857" endtime="1559312603"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="192.168.1.40" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="resets" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ssh" product="OpenSSH" version="6.7p1 Debian 5+deb8u4" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.7p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Apache httpd" version="2.4.10" hostname="127.0.1.1" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.10</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="100" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+</os>
+<tcpsequence index="259" difficulty="Good luck!" values="C51FF2A2,FA6F771,79F3B888,4EF2E4CD,62823FCF,12175EFD"/>
+<ipidsequence class="Incremental" values="36B6,36B8,36BB,36BD,36BF,36C1"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="3295" rttvar="1595" to="100000"/>
+</host>
+<host starttime="1559309857" endtime="1559312605"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="192.168.1.20" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65523">
+<extrareasons reason="resets" count="65523"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ssh" product="OpenSSH" version="7.6" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" tunnel="ssl" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1002"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="windows-icfw" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9009"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="pichat" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9090"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="zeus-admin" servicefp="SF-Port9090-TCP:V=7.70%T=SSL%I=7%D=5/31%Time=5CF13865%P=x86_64-pc-linux-gnu%r(GetRequest,E12,&quot;HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-Type:\x20text/html;\x20charset=utf8\r\nTransfer-Encoding:\x20chunked\r\nX-DNS-Prefetch-Control:\x20off\r\nReferrer-Policy:\x20no-referrer\r\n\r\n29\r\n&lt;!DOCTYPE\x20html&gt;\n&lt;html&gt;\n&lt;head&gt;\n\x20\x20\x20\x20&lt;title&gt;\r\nb\r\nBad\x20request\r\ncf6\r\n&lt;/title&gt;\n\x20\x20\x20\x20&lt;meta\x20http-equiv=\&quot;Content-Type\&quot;\x20content=\&quot;text/html;\x20charset=utf-8\&quot;&gt;\n\x20\x20\x20\x20&lt;meta\x20name=\&quot;viewport\&quot;\x20content=\&quot;width=device-width,\x20initial-scale=1\.0\&quot;&gt;\n\x20\x20\x20\x20&lt;style&gt;\n\tbody\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\&quot;Open\x20Sans\&quot;,\x20Helvetica,\x20Arial,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201\.66666667;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#333333;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#f5f5f5;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20img\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20vertical-align:\x20middle;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20h1\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20300;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20p\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200\x200\x2010px;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20@font-face\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20&apos;Open\x20Sans&apos;;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-styl&quot;)%r(HTTPOptions,E12,&quot;HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-Type:\x20text/html;\x20charset=utf8\r\nTransfer-Encoding:\x20chunked\r\nX-DNS-Prefetch-Control:\x20off\r\nReferrer-Policy:\x20no-referrer\r\n\r\n29\r\n&lt;!DOCTYPE\x20html&gt;\n&lt;html&gt;\n&lt;head&gt;\n\x20\x20\x20\x20&lt;title&gt;\r\nb\r\nBad\x20request\r\ncf6\r\n&lt;/title&gt;\n\x20\x20\x20\x20&lt;meta\x20http-equiv=\&quot;Content-Type\&quot;\x20content=\&quot;text/html;\x20charset=utf-8\&quot;&gt;\n\x20\x20\x20\x20&lt;meta\x20name=\&quot;viewport\&quot;\x20content=\&quot;width=device-width,\x20initial-scale=1\.0\&quot;&gt;\n\x20\x20\x20\x20&lt;style&gt;\n\tbody\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\&quot;Open\x20Sans\&quot;,\x20Helvetica,\x20Arial,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201\.66666667;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#333333;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#f5f5f5;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20img\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20vertical-align:\x20middle;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20h1\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20300;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20p\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200\x200\x2010px;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20@font-face\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20&apos;Open\x20Sans&apos;;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-styl&quot;);" tunnel="ssl" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9091"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="xmltec-xmlmail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="12873"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="16045"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="16575"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="35485"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="44667"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="46083"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="DD-WRT v24-sp2 (Linux 2.4.37)" accuracy="100" line="44814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.4.37</cpe></osclass>
+</osmatch>
+</os>
+<tcpsequence index="257" difficulty="Good luck!" values="9887AEFA,3A427ECB,8E037B92,D4073F39,AF3FBA25,1D8B3B02"/>
+<ipidsequence class="Incremental" values="36B7,36B9,36BA,36BC,36BE,36C0"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="204046" rttvar="349306" to="1250000"/>
+</host>
+<runstats><finished time="1559312605" timestr="Fri May 31 10:23:25 2019" elapsed="2748.56" summary="Nmap done at Fri May 31 10:23:25 2019; 10 IP addresses (10 hosts up) scanned in 2748.56 seconds" exit="success"/><hosts up="10" down="0" total="10"/>
+</runstats>
+</nmaprun>

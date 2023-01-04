@@ -1,0 +1,47 @@
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-19 02:23 UTC
+Nmap scan report for 192.168.1.20
+Host is up (0.00077s latency).
+Not shown: 977 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: FA:16:3E:09:50:62 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=1/19%OT=21%CT=1%CU=40278%PV=Y%DS=1%DC=D%G=Y%M=FA163E%T
+OS:M=5E23BD97%P=x86_64-pc-linux-gnu)SEQ(SP=C6%GCD=1%ISR=CA%TI=Z%CI=Z%TS=7)S
+OS:EQ(SP=C6%GCD=1%ISR=CA%TI=Z%CI=Z%II=I%TS=7)OPS(O1=M582ST11NW6%O2=M582ST11
+OS:NW6%O3=M582NNT11NW6%O4=M582ST11NW6%O5=M582ST11NW6%O6=M582ST11)WIN(W1=15D
+OS:8%W2=15D8%W3=15D8%W4=15D8%W5=15D8%W6=15D8)ECN(R=Y%DF=Y%T=40%W=1608%O=M58
+OS:2NNSNW6%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=
+OS:Y%T=40%W=15D8%S=O%A=S+%F=AS%O=M582ST11NW6%RD=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R
+OS:=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=
+OS:AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%
+OS:RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.17 seconds
